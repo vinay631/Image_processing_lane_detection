@@ -95,4 +95,4 @@ Here's a [link to my video result](./project_video.mp4)
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
+The hardest part of this project was finding the parameters for thresholds. Also, the pipeline doesn't seem to work for harder videos due to sharper turns. One way this could be improved is by taking smaller section to take the transform. I believe snow on the road would also be an issue. The segmentation procedure can be improved to make it robust in different lightning conditions. Perhaps a combination of Machine learning techniques would help in lane segmentation.  
